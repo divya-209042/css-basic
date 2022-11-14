@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        .div1{
+            height:200px;
+            width:200px;
+            background-color:red;
+            
+        }
+        .div1:hover{
+           background-color: blue;
+           border-radius: 60%;
+        }
+        nav{
+            background-color: pink;
+            height: 50px;
+        }
+        a{
+            color:white;
+            padding: 10px;
+            word-spacing: 60px;
+            font-size:25px;
+            text-decoration:underline;
+            text-decoration:none;
+           // word-spacing: 20px;//
+            letter-spacing:30px;
+
+        }
+        a:hover{
+   background-color: antiquewhite;
+   color:yellow;
+        }
+        li:first-child {
+            background-color: aqua;
+            
+        }
+        
+        li:last-child{
+            background-color: blueviolet;
+            color:white;
+            font-size: 40px;
+            font-family: cursive;
+
+        }
+     li:nth-child(odd)
+     {
+        color:chartreuse;
+        font-size: 40px;
+        background-color: aqua;
+     }
+     li:nth-child()
+     {
+        color:darkgreen;
+        font-size: medium;
+        
+
+     }
+
+
+
+     p::first-line
+     {
+        background-color: crimson;
+        color:aqua;
+     }
+     p::first-letter{
+        font-size: 50px;
+        color:pink;
+     }
+     a::before{
+        content: '89754';
+     }
+     p::after{
+        content: '67777';
+        background-color: yellowgreen;
+        font-size: 30px;
+       
+
+
+     }
+     
+    </style>
+</head>
+<body>
+     <div class="div1">
+      
+     </div>
+     <div>
+        <nav>
+            <a href="">HOME</a>
+            <a href="">About</a>
+            <a href="">Service</a>
+            <a href="">Menu</a>
+            <a href="">Contact</a>
+        </nav>
+     </div>
+     <ul type="circle">
+
+       <li>one</li><li>one</li>
+       <li>two</li><li>two</li>
+        <li>three</li><li>three</li>
+        <li>four</li><li>four</li>
+        <li>five</li><li>five</li>
+        <li>six</li><li>six</li>
+     </ul>
+     <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint rerum molestiae amet deserunt reiciendis tempore ipsum dignissimos labore suscipit, consequatur molestias! Porro nesciunt dolore deserunt quam et maiores vero.
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis reiciendis accusantium, minima aliquam nemo dicta similique suscipit neque velit itaque deserunt autem obcaecati dolores voluptatibus at odio commodi ex repudiandae?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque asperiores delectus error quas repudiandae ipsa! Quisquam saepe nostrum animi, dignissimos quo non. Qui, quo cumque? Ut voluptates sunt natus voluptatem.
+            </p>
+            <p  class="p">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi autem aut qui eius debitis nam laboriosam aspernatur. Culpa optio ut ducimus recusandae placeat beatae tempore, inventore, velit eum tenetur dolorem!
+            </p>
+
+</body>
+</html>
